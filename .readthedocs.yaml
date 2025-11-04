@@ -10,6 +10,8 @@ build:
     python: "3.8"
   apt_packages:
     - gmt  # Installs GMT (default ~6.x) on Ubuntu
+  commands:
+    - gmt --version
 
 # Build documentation with Sphinx
 sphinx:

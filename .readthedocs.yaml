@@ -1,6 +1,6 @@
 # .readthedocs.yaml
-# Read the Docs configuration file
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html
+# Read the Docs configuration file (v2)
+# Reference: https://docs.readthedocs.io/en/stable/config-file/v2.html
 
 version: 2
 
@@ -9,9 +9,7 @@ build:
   tools:
     python: "3.8"
   apt_packages:
-    - gmt  # Install GMT 6.0+ from Ubuntu repositories
-  env:
-    GMT_VERSION: "6.0.0"
+    - gmt  # Installs GMT (default ~6.x) on Ubuntu
 
 # Build documentation with Sphinx
 sphinx:
@@ -21,3 +19,4 @@ sphinx:
 python:
   install:
     - requirements: docs/requirements.txt
+

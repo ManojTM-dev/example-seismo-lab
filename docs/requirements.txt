@@ -10,4 +10,3 @@ gdal==3.0.4         # Stable version on Ubuntu 20.04
 # Optional scientific stack
 numpy
 pandas
-matplotlib

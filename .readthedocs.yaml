@@ -14,7 +14,8 @@ build:
 # Build documentation with Sphinx
 sphinx:
   configuration: docs/source/conf.py
-
+#commands:
+  - gmt --version
 # Install Python dependencies for building docs
 python:
   install:

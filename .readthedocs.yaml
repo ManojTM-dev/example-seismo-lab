@@ -5,12 +5,12 @@
 version: 2
 
 build:
-  os: ubuntu-22.04
+  os: ubuntu-20.04
   tools:
     python: "3.8"
   apt_packages:
-    - gmt  # Installs GMT (default ~6.x) on Ubuntu
-    
+    - gmt  # Installs GMT 6.0.0 (default for Ubuntu 20.04)
+
 # Build documentation with Sphinx
 sphinx:
   configuration: docs/source/conf.py
@@ -19,5 +19,3 @@ sphinx:
 python:
   install:
     - requirements: docs/requirements.txt
-
-

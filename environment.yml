@@ -1,0 +1,16 @@
+name: docs_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - gdal
+  - gmt
+  - sphinx
+  - sphinx-rtd-theme
+  - sphinx-autodoc-typehints
+  - sphinxcontrib-napoleon
+  - pip
+  - pip:
+      - sphinx-autobuild
+

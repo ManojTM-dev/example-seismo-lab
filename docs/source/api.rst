@@ -1,7 +1,10 @@
-API
-===
+API Reference
+=============
 
-.. autosummary::
-   :toctree: generated
+This section describes the main functions and modules used in the TIFF–GDAL utilities.
 
-   lumache
+.. automodule:: tiff_gdal_tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :noindex:

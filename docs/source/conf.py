@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+roject = 'TIFF–GDAL Docs'
+copyright = '2025, Manoj T M'
+author = 'Manoj T M'
 
 release = '0.1'
 version = '0.1.0'

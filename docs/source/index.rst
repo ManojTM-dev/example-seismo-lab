@@ -1,4 +1,4 @@
-Welcome to TIFF–GDAL Docs!
+Welcome to example seismo lab!
 ==========================
 
 **TIFF–GDAL Docs** is a guide and reference for working with TIFF images and GDAL-based

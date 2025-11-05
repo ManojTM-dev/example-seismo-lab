@@ -19,7 +19,7 @@ the :ref:`installation` and dependencies.
 .. note::
 
    This project has been tested on **CentOS 7** (local environment)
-   and **Ubuntu 22.04** (Read the Docs build system),
+   and **Ubuntu 20.04** (Read the Docs build system),
    using **Python 3.8.6** and **GMT 6.0.0**.
 
 
